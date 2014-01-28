@@ -55,12 +55,12 @@ epcap_start_test_() ->
        fun epcap_unknown_verbose_value_start/0},
       {"Test epcap start options with custom buffer size",
        fun epcap_custom_buffer_size_start/0},
-      {"Test epcap start options for unknown value for buffer size",
-       fun epcap_unknown_custom_buffer_value_start/0},
       {"Test epcap start options with printing statistics interval",
        fun epcap_stats_interval_start/0},
-     {"Test epcap start options for unknown value for stats interval",
-      fun epcap_unknown_stats_interval_start/0}]}.
+      {"Test epcap start options for unknown value for stats interval",
+       fun epcap_unknown_stats_interval_start/0},
+      {"Test epcap start options for unknown value for buffer size",
+       fun epcap_unknown_custom_buffer_value_start/0}]}.
 
 %% Tests -----------------------------------------------------------------------
 
